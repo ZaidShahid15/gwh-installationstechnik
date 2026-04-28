@@ -1,0 +1,1 @@
+{{-- Shared header extraction intentionally deferred to preserve pixel accuracy. --}}

@@ -1,0 +1,113 @@
+.cmplz-cookiebanner {
+    position: fixed;
+    right: 24px;
+    bottom: 24px;
+    z-index: 99999;
+    max-width: 420px;
+    width: calc(100% - 32px);
+    padding: 20px;
+    border-radius: 14px;
+    background: rgba(17, 17, 17, 0.96);
+    color: #ffffff;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.35);
+}
+
+.cmplz-cookiebanner a,
+.cmplz-cookiebanner .cmplz-title,
+.cmplz-cookiebanner .cmplz-message,
+.cmplz-cookiebanner .cmplz-category-title,
+.cmplz-cookiebanner .cmplz-description,
+.cmplz-cookiebanner .cmplz-link {
+    color: #ffffff;
+}
+
+.cmplz-cookiebanner .cmplz-header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 12px;
+}
+
+.cmplz-cookiebanner .cmplz-header .cmplz-title {
+    flex: 1 1 auto;
+    margin: 0;
+}
+
+.cmplz-cookiebanner .cmplz-header .cmplz-close {
+    appearance: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex: 0 0 32px;
+    width: 32px;
+    height: 32px;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    background: transparent;
+    color: #ffffff;
+    cursor: pointer;
+    line-height: 1;
+}
+
+.cmplz-cookiebanner .cmplz-header .cmplz-close svg,
+.cmplz-cookiebanner .cmplz-header .cmplz-close img,
+.cmplz-cookiebanner .cmplz-header .cmplz-close i {
+    width: 18px !important;
+    height: 18px !important;
+    max-width: 18px;
+    max-height: 18px;
+    flex: 0 0 18px;
+}
+
+.cmplz-cookiebanner .cmplz-header .cmplz-close svg {
+    display: block;
+    fill: currentColor;
+}
+
+.cmplz-cookiebanner .cmplz-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 16px;
+}
+
+.cmplz-cookiebanner .cmplz-btn {
+    appearance: none;
+    border: 1px solid rgba(255, 255, 255, 0.28);
+    border-radius: 999px;
+    background: transparent;
+    color: #ffffff;
+    cursor: pointer;
+    font: inherit;
+    padding: 10px 18px;
+}
+
+.cmplz-cookiebanner .cmplz-btn.cmplz-accept,
+.cmplz-cookiebanner .cmplz-btn.cmplz-save-preferences {
+    background: #d91f26;
+    border-color: #d91f26;
+}
+
+.cmplz-cookiebanner.cmplz-hidden,
+.cmplz-hidden {
+    display: none !important;
+}
+
+.cmplz-manage-consent {
+    position: fixed;
+    right: 24px;
+    bottom: 24px;
+    z-index: 99998;
+}
+
+@media (max-width: 767px) {
+    .cmplz-cookiebanner,
+    .cmplz-manage-consent {
+        right: 16px;
+        left: 16px;
+        bottom: 16px;
+        width: auto;
+        max-width: none;
+    }
+}

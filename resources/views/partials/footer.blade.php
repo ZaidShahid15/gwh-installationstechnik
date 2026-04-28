@@ -1,0 +1,1 @@
+{{-- Shared footer extraction intentionally deferred to preserve pixel accuracy. --}}

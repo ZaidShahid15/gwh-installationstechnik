@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://gwh-installationstechnik.at/sitemap_index.xml
